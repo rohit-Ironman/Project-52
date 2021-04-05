@@ -1,0 +1,66 @@
+.menu{
+ 
+    color: black; 
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px; 
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+ 
+}
+body{
+    margin: 0px;
+    background-color:rgb(0, 255, 255);
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: rgb(55, 32, 255);
+    padding: 40px; 
+    margin: 40px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
+.rohit {
+    position: absolute;
+    top: 30%;
+
+color: white;
+}
+
+a:link{
+ 
+    color : rgb(0, 0, 0)  
+}
+
+a:visited{
+    color: rgb(0, 0, 0); 
+} 
+.oragami hover{
+    transform: scale(2.1); 
+}  
+
+a:link{
+    color: white;
+} 
+a:visited{
+    color: white;
+}
+.oragami:hover{
+    transform: scale(1.2); 
+}
